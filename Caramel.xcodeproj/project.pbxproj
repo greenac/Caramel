@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCE9C58B1D0F0CF700410E1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE9C58A1D0F0CF700410E1A /* AppDelegate.swift */; };
+		DCE9C58D1D0F0CF700410E1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE9C58C1D0F0CF700410E1A /* ViewController.swift */; };
+		DCE9C5901D0F0CF700410E1A /* Caramel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCE9C58E1D0F0CF700410E1A /* Caramel.xcdatamodeld */; };
+		DCE9C5921D0F0CF700410E1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE9C5911D0F0CF700410E1A /* Assets.xcassets */; };
+		DCE9C5951D0F0CF700410E1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE9C5931D0F0CF700410E1A /* Main.storyboard */; };
+		DCE9C5A01D0F0CF700410E1A /* CaramelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE9C59F1D0F0CF700410E1A /* CaramelTests.swift */; };
+		DCE9C5AB1D0F0CF700410E1A /* CaramelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE9C5AA1D0F0CF700410E1A /* CaramelUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCE9C59C1D0F0CF700410E1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCE9C57F1D0F0CF700410E1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCE9C5861D0F0CF700410E1A;
+			remoteInfo = Caramel;
+		};
+		DCE9C5A71D0F0CF700410E1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCE9C57F1D0F0CF700410E1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCE9C5861D0F0CF700410E1A;
+			remoteInfo = Caramel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCE9C5871D0F0CF700410E1A /* Caramel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caramel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE9C58A1D0F0CF700410E1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCE9C58C1D0F0CF700410E1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCE9C58F1D0F0CF700410E1A /* Caramel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Caramel.xcdatamodel; sourceTree = "<group>"; };
+		DCE9C5911D0F0CF700410E1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCE9C5941D0F0CF700410E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCE9C5961D0F0CF700410E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCE9C59B1D0F0CF700410E1A /* CaramelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaramelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE9C59F1D0F0CF700410E1A /* CaramelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaramelTests.swift; sourceTree = "<group>"; };
+		DCE9C5A11D0F0CF700410E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCE9C5A61D0F0CF700410E1A /* CaramelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaramelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE9C5AA1D0F0CF700410E1A /* CaramelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaramelUITests.swift; sourceTree = "<group>"; };
+		DCE9C5AC1D0F0CF700410E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCE9C5841D0F0CF700410E1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE9C5981D0F0CF700410E1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE9C5A31D0F0CF700410E1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCE9C57E1D0F0CF700410E1A = {
+			isa = PBXGroup;
+			children = (
+				DCE9C5891D0F0CF700410E1A /* Caramel */,
+				DCE9C59E1D0F0CF700410E1A /* CaramelTests */,
+				DCE9C5A91D0F0CF700410E1A /* CaramelUITests */,
+				DCE9C5881D0F0CF700410E1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCE9C5881D0F0CF700410E1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCE9C5871D0F0CF700410E1A /* Caramel.app */,
+				DCE9C59B1D0F0CF700410E1A /* CaramelTests.xctest */,
+				DCE9C5A61D0F0CF700410E1A /* CaramelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCE9C5891D0F0CF700410E1A /* Caramel */ = {
+			isa = PBXGroup;
+			children = (
+				DCE9C58A1D0F0CF700410E1A /* AppDelegate.swift */,
+				DCE9C58C1D0F0CF700410E1A /* ViewController.swift */,
+				DCE9C5911D0F0CF700410E1A /* Assets.xcassets */,
+				DCE9C5931D0F0CF700410E1A /* Main.storyboard */,
+				DCE9C5961D0F0CF700410E1A /* Info.plist */,
+				DCE9C58E1D0F0CF700410E1A /* Caramel.xcdatamodeld */,
+			);
+			path = Caramel;
+			sourceTree = "<group>";
+		};
+		DCE9C59E1D0F0CF700410E1A /* CaramelTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCE9C59F1D0F0CF700410E1A /* CaramelTests.swift */,
+				DCE9C5A11D0F0CF700410E1A /* Info.plist */,
+			);
+			path = CaramelTests;
+			sourceTree = "<group>";
+		};
+		DCE9C5A91D0F0CF700410E1A /* CaramelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCE9C5AA1D0F0CF700410E1A /* CaramelUITests.swift */,
+				DCE9C5AC1D0F0CF700410E1A /* Info.plist */,
+			);
+			path = CaramelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCE9C5861D0F0CF700410E1A /* Caramel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCE9C5AF1D0F0CF700410E1A /* Build configuration list for PBXNativeTarget "Caramel" */;
+			buildPhases = (
+				DCE9C5831D0F0CF700410E1A /* Sources */,
+				DCE9C5841D0F0CF700410E1A /* Frameworks */,
+				DCE9C5851D0F0CF700410E1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Caramel;
+			productName = Caramel;
+			productReference = DCE9C5871D0F0CF700410E1A /* Caramel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCE9C59A1D0F0CF700410E1A /* CaramelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCE9C5B21D0F0CF700410E1A /* Build configuration list for PBXNativeTarget "CaramelTests" */;
+			buildPhases = (
+				DCE9C5971D0F0CF700410E1A /* Sources */,
+				DCE9C5981D0F0CF700410E1A /* Frameworks */,
+				DCE9C5991D0F0CF700410E1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCE9C59D1D0F0CF700410E1A /* PBXTargetDependency */,
+			);
+			name = CaramelTests;
+			productName = CaramelTests;
+			productReference = DCE9C59B1D0F0CF700410E1A /* CaramelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCE9C5A51D0F0CF700410E1A /* CaramelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCE9C5B51D0F0CF700410E1A /* Build configuration list for PBXNativeTarget "CaramelUITests" */;
+			buildPhases = (
+				DCE9C5A21D0F0CF700410E1A /* Sources */,
+				DCE9C5A31D0F0CF700410E1A /* Frameworks */,
+				DCE9C5A41D0F0CF700410E1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCE9C5A81D0F0CF700410E1A /* PBXTargetDependency */,
+			);
+			name = CaramelUITests;
+			productName = CaramelUITests;
+			productReference = DCE9C5A61D0F0CF700410E1A /* CaramelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCE9C57F1D0F0CF700410E1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Sugar;
+				TargetAttributes = {
+					DCE9C5861D0F0CF700410E1A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					DCE9C59A1D0F0CF700410E1A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DCE9C5861D0F0CF700410E1A;
+					};
+					DCE9C5A51D0F0CF700410E1A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DCE9C5861D0F0CF700410E1A;
+					};
+				};
+			};
+			buildConfigurationList = DCE9C5821D0F0CF700410E1A /* Build configuration list for PBXProject "Caramel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCE9C57E1D0F0CF700410E1A;
+			productRefGroup = DCE9C5881D0F0CF700410E1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCE9C5861D0F0CF700410E1A /* Caramel */,
+				DCE9C59A1D0F0CF700410E1A /* CaramelTests */,
+				DCE9C5A51D0F0CF700410E1A /* CaramelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCE9C5851D0F0CF700410E1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE9C5921D0F0CF700410E1A /* Assets.xcassets in Resources */,
+				DCE9C5951D0F0CF700410E1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE9C5991D0F0CF700410E1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE9C5A41D0F0CF700410E1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCE9C5831D0F0CF700410E1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE9C58D1D0F0CF700410E1A /* ViewController.swift in Sources */,
+				DCE9C5901D0F0CF700410E1A /* Caramel.xcdatamodeld in Sources */,
+				DCE9C58B1D0F0CF700410E1A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE9C5971D0F0CF700410E1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE9C5A01D0F0CF700410E1A /* CaramelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE9C5A21D0F0CF700410E1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE9C5AB1D0F0CF700410E1A /* CaramelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCE9C59D1D0F0CF700410E1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCE9C5861D0F0CF700410E1A /* Caramel */;
+			targetProxy = DCE9C59C1D0F0CF700410E1A /* PBXContainerItemProxy */;
+		};
+		DCE9C5A81D0F0CF700410E1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCE9C5861D0F0CF700410E1A /* Caramel */;
+			targetProxy = DCE9C5A71D0F0CF700410E1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCE9C5931D0F0CF700410E1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCE9C5941D0F0CF700410E1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCE9C5AD1D0F0CF700410E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCE9C5AE1D0F0CF700410E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DCE9C5B01D0F0CF700410E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Caramel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sugar.Caramel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DCE9C5B11D0F0CF700410E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Caramel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sugar.Caramel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DCE9C5B31D0F0CF700410E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CaramelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sugar.CaramelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Caramel.app/Contents/MacOS/Caramel";
+			};
+			name = Debug;
+		};
+		DCE9C5B41D0F0CF700410E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CaramelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sugar.CaramelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Caramel.app/Contents/MacOS/Caramel";
+			};
+			name = Release;
+		};
+		DCE9C5B61D0F0CF700410E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CaramelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sugar.CaramelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Caramel;
+			};
+			name = Debug;
+		};
+		DCE9C5B71D0F0CF700410E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CaramelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sugar.CaramelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Caramel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCE9C5821D0F0CF700410E1A /* Build configuration list for PBXProject "Caramel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE9C5AD1D0F0CF700410E1A /* Debug */,
+				DCE9C5AE1D0F0CF700410E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCE9C5AF1D0F0CF700410E1A /* Build configuration list for PBXNativeTarget "Caramel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE9C5B01D0F0CF700410E1A /* Debug */,
+				DCE9C5B11D0F0CF700410E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCE9C5B21D0F0CF700410E1A /* Build configuration list for PBXNativeTarget "CaramelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE9C5B31D0F0CF700410E1A /* Debug */,
+				DCE9C5B41D0F0CF700410E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCE9C5B51D0F0CF700410E1A /* Build configuration list for PBXNativeTarget "CaramelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE9C5B61D0F0CF700410E1A /* Debug */,
+				DCE9C5B71D0F0CF700410E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DCE9C58E1D0F0CF700410E1A /* Caramel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DCE9C58F1D0F0CF700410E1A /* Caramel.xcdatamodel */,
+			);
+			currentVersion = DCE9C58F1D0F0CF700410E1A /* Caramel.xcdatamodel */;
+			path = Caramel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DCE9C57F1D0F0CF700410E1A /* Project object */;
+}
